@@ -1,35 +1,49 @@
-body{
-    background-color: lightgrey;
-}
-
 nav {
-    height: 50px;
+    padding: 15px;
     background-color: lightgrey;
   }
 
 .nav-elements{
     display: inline-block;
     padding: 20px;
+    text-align: center;
+    width: 100px;
     background-color: #333333;
     color: white;
 }
 
 .left-container{
-    display: block;
-    width: 29%;
-    height: 100%;
+    width: 28%;
+    height: 500px;
     float: left;
-    padding: 15px;
-    border-style: line;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px;
+}
+
+.left-top-container{
+    margin: 5px;
+    margin-top: 0px;
+    background-color: white;
+}
+
+.left-bottom-container{
+    margin: 5px;
+    background-color: white;
 }
 
 .right-container{
-    display: block;
-    height: 100%;
-    width: 70%;
-    float: right;
+    width: 66%;
+    height: 500px;
+    float: left;
+    background-color: lightgrey;
+    padding: 10px;
 }
 
+.top-right-container{
+    margin: 5px;
+    background-color: white;
+}
 
 .logo{
     width: 100px;
@@ -46,32 +60,6 @@ nav {
     padding: 15px;
     border: 1px black;
     display: inline;
-}
-
-.right-top-container{
-    display: block;
-    position: static;
-    padding: 15px;
-    margin: 15px;
-    border-radius: 5px;
-}
-
-.right-bottom-container{
-    display: block;
-    position: static;
-    text-align: center;
-    border-radius: 5px;
-}
-.left-top-container{
-    display: block;
-    text-align: center;
-    margin: 15px;
-}
-
-.left-bottom-container{
-    display: block;
-    text-align: center;
-    margin: 15px;
 }
 
 ul{
